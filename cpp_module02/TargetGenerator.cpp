@@ -16,8 +16,6 @@ ATarget *TargetGenerator::createTarget(std::string const &target)
 {
 	ATarget *tmp = NULL;
 	if (_targets.find(target) != _targets.end())
-	{
 		tmp = _targets[target];
-	}
 	return tmp;
 }
