@@ -5,7 +5,6 @@
 class Warlock
 {
 private:
-	Warlock();
 	std::string _name;
 	std::string _title;
 
