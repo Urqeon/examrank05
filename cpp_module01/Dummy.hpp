@@ -6,5 +6,5 @@ class Dummy : public ATarget
 public:
 	Dummy();
 	~Dummy() {}
-	ATarget *clone() const {return new Dummy;}
+	ATarget *clone() const {return new Dummy();}
 };
